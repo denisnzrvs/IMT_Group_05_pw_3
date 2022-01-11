@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     color : "white",
   },
   itemBox: {
-    backgroundColor: "dimgray",
+    backgroundColor: "lightslategray",
     padding: 5,
     borderRadius: 7,
     margin: 8,
@@ -66,11 +66,11 @@ const styles = StyleSheet.create({
 });
 
 const list = [
-  { name: "John Doe" },
-  { name: "John Doe" },
-  { name: "John Doe" },
-  { name: "John Doe" },
-  { name: "John Doe" },
+  { name: "Tinky-Winky" },
+  { name: "Dipsy" },
+  { name: "Lala" },
+  { name: "Po" },
+  { name: "Sun" },
 ];
 
 const FlatListBasics = () => {
