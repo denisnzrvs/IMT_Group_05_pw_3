@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { FlatList, StyleSheet, Text, View, Button } from "react-native";
-
 const Stack = createNativeStackNavigator();
 
 const MyStack = () => {
@@ -14,8 +13,7 @@ const MyStack = () => {
           component={HomeScreen}
           options={{ title: "React application" }}
         />
-        <Stack.Screen name="List View"
-        component={FlatListBasics} />
+        <Stack.Screen name="List View" component={FlatListBasics} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -46,7 +44,7 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   button: {
-    margin : 15,
+    margin: 15,
   },
   container: {
     flex: 1,
@@ -55,7 +53,7 @@ const styles = StyleSheet.create({
   item: {
     padding: 16,
     fontSize: 40,
-    color : "white",
+    color: "white",
   },
   itemBox: {
     backgroundColor: "dimgray",
